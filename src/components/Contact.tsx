@@ -9,19 +9,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      value: "alvarocastisoto@gmail.com",
+      href: "mailto:your.alvarocastisoto@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+34 690 29 50 10",
+      href: "+34 690 29 50 10"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, State",
+      value: "Pontevedra, Spain",
       href: "#"
     }
   ];
@@ -30,13 +30,13 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/yourusername",
+      href: "https://github.com/alvarocastisoto",
       color: "hover:text-foreground"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yourprofile",
+      href: "https://www.linkedin.com/in/alvaro-casti%C3%B1eira-soto-0a6a15275/",
       color: "hover:text-blue-500"
     }
   ];

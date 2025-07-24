@@ -6,22 +6,22 @@ const About = () => {
     {
       icon: GraduationCap,
       title: "Computer Science Student",
-      description: "Currently pursuing my degree with focus on software engineering and backend systems"
+      description: "Actively pursuing a degree in software development with a strong interest in backend systems and architecture."
     },
     {
       icon: Code,
       title: "Java Developer",
-      description: "Experienced in object-oriented programming, Spring framework, and enterprise applications"
+      description: "Hands-on experience with object-oriented programming, Spring framework, and building reliable enterprise applications."
     },
     {
       icon: Database,
-      title: "SQL Expert",
-      description: "Proficient in database design, optimization, and working with various database systems"
+      title: "Skilled in SQL",
+      description: "Comfortable working with relational databases, focusing on design, performance tuning, and data integrity."
     },
     {
       icon: Server,
       title: "Backend Specialist",
-      description: "Passionate about building scalable APIs, microservices, and server-side architecture"
+      description: "Driven by the challenge of building scalable APIs, microservices, and clean backend solutions."
     }
   ];
 
@@ -52,25 +52,6 @@ const About = () => {
               </div>
             </Card>
           ))}
-        </div>
-
-        <div className="mt-16 max-w-4xl mx-auto">
-          <Card className="p-8 bg-gradient-card border-border">
-            <div className="prose prose-invert max-w-none">
-              <h3 className="text-2xl font-semibold mb-4 text-foreground">My Journey</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                As a computer science student, I've developed a strong foundation in programming principles 
-                and software engineering practices. My focus on backend development stems from my fascination 
-                with how complex systems work behind the scenes. I enjoy the challenge of creating efficient, 
-                scalable solutions that can handle real-world demands.
-              </p>
-              <p className="text-muted-foreground leading-relaxed mt-4">
-                Through academic projects and self-directed learning, I've gained hands-on experience with 
-                Java ecosystem, database management, and modern development practices. I'm constantly 
-                exploring new technologies and methodologies to stay current with industry trends.
-              </p>
-            </div>
-          </Card>
         </div>
       </div>
     </section>

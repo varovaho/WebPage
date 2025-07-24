@@ -26,32 +26,56 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Backend Developer specialized in Java, SQL, and scalable architectures.
-              Turning complex ideas into reliable software solutions, ready for real-world impact.
+              Computer Science student specializing in Java, SQL, and backend development.
+              Building robust, scalable solutions for tomorrow's challenges.
             </p>
           </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="group">
-              <Download className="group-hover:scale-110 transition-bounce" />
-              Download Resume
+            <Button asChild variant="hero" size="lg" className="group">
+              <a href="/Alvaro-CV.pdf" download>
+                <Download className="mr-2 group-hover:scale-110 transition-transform duration-300" />
+                Download CV
+              </a>
             </Button>
-            <Button variant="outline" size="lg">
-              View Projects
+
+            <Button asChild variant="outline" size="lg">
+              <a href="#projects">View Projects</a>
             </Button>
           </div>
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 pt-8">
-            <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-              <Github className="w-6 h-6" />
+            <Button
+              variant="ghost"
+              size="icon"
+              className="text-muted-foreground hover:text-primary"
+              asChild
+            >
+              <a href="https://github.com/alvarocastisoto" target="_blank" rel="noopener noreferrer">
+                <Github className="w-6 h-6" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-              <Linkedin className="w-6 h-6" />
+            <Button
+              variant="ghost"
+              size="icon"
+              className="text-muted-foreground hover:text-primary"
+              asChild
+            >
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-6 h-6" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-              <Mail className="w-6 h-6" />
+            <Button
+              variant="ghost"
+              size="icon"
+              className="text-muted-foreground hover:text-primary"
+              asChild
+            >
+              <a href="mailto:alvarocastisoto@gmail.com.com">
+                <Mail className="w-6 h-6" />
+              </a>
             </Button>
           </div>
         </div>

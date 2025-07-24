@@ -9,8 +9,8 @@ const Skills = () => {
         { name: "Java", level: "Advanced" },
         { name: "SQL", level: "Advanced" },
         { name: "Python", level: "Intermediate" },
-        { name: "JavaScript", level: "Intermediate" },
-        { name: "C++", level: "Beginner" },
+        { name: "XML/JSON", level: "Intermediate" },
+        { name: "HTML", level: "Beginner" },
       ]
     },
     {
@@ -38,7 +38,7 @@ const Skills = () => {
       skills: [
         { name: "Git", level: "Advanced" },
         { name: "Docker", level: "Beginner" },
-        { name: "IntelliJ IDEA", level: "Advanced" },
+        { name: "Visual Studio", level: "Advanced" },
         { name: "Linux", level: "Intermediate" },
         { name: "Agile/Scrum", level: "Intermediate" },
       ]
@@ -66,7 +66,7 @@ const Skills = () => {
             Technical <span className="bg-gradient-primary bg-clip-text text-transparent">Skills</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Here's an overview of my technical expertise and proficiency levels across 
+            Here's an overview of my technical expertise and proficiency levels across
             different technologies and tools I work with.
           </p>
         </div>
@@ -94,14 +94,14 @@ const Skills = () => {
           <Card className="p-8 bg-gradient-card border-border text-center">
             <h3 className="text-2xl font-semibold mb-4">Currently Learning</h3>
             <p className="text-muted-foreground mb-6">
-              I'm always expanding my knowledge and currently focusing on:
+              I'm always expanding my backend and cloud skills to align with modern enterprise demands.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              {["Spring Security", "Docker & Kubernetes", "AWS Services", "Apache Kafka", "Redis"].map((tech) => (
-                <Badge key={tech} variant="outline" className="text-primary border-primary">
-                  {tech}
-                </Badge>
-              ))}
+              {["Spring Security", "Kafka", "Docker & Kubernetes", "AWS Core Services", "Redis"].map((tech) => (
+                  <Badge key={tech} variant="outline" className="text-primary border-primary">
+                    {tech}
+                  </Badge>
+                ))}
             </div>
           </Card>
         </div>
