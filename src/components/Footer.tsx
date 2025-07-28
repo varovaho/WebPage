@@ -21,7 +21,7 @@ const Footer = () => {
               className="text-muted-foreground hover:text-primary"
               asChild
             >
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/alvarocastisoto" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
               </a>
             </Button>
@@ -31,7 +31,7 @@ const Footer = () => {
               className="text-muted-foreground hover:text-primary"
               asChild
             >
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/alvaro-casti%C3%B1eira-soto-0a6a15275/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
               </a>
             </Button>
@@ -41,7 +41,7 @@ const Footer = () => {
               className="text-muted-foreground hover:text-primary"
               asChild
             >
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:alvarocastisoto@gmail.com">
                 <Mail className="w-5 h-5" />
               </a>
             </Button>
@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-sm text-muted-foreground">
-            <p>© {currentYear} Your Name. All rights reserved.</p>
+            <p>© {currentYear} Álvaro Castiñeira Soto. All rights reserved.</p>
             <p className="mt-1">Built with React, TypeScript, and Tailwind CSS</p>
           </div>
         </div>
